@@ -1,0 +1,30 @@
+
+    .intro {
+        background-color: #121212;     
+
+        .intro-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h3 {
+                margin-top: 150px;
+                color: #474747;
+                font-size: 28px;
+            }
+
+            h2 {
+                padding: 32px 0;
+                color: #bb86fc;
+                font-size: 42px;
+                letter-spacing: 5px;
+                font-family: 'Cutive Mono', monospace;
+            }
+
+            p {
+                color: #474747;
+                font-size: 20px;
+            }
+        }
+    }

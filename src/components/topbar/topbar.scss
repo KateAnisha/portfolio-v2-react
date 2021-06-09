@@ -1,8 +1,67 @@
 .topbar {
     width: 100%;
     height: 70px;
-    background-color: #2e2e2e;
+    background-color: #272727;
+    color: #ababab;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
+
+    .wrapper {
+        padding: 18px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            .logo {
+                font-size: 30px;
+                font-weight: 900;
+                letter-spacing: 1.5px;
+                text-decoration: none;
+                color: #bb86fc;
+                font-family: 'Cutive Mono', monospace;
+            }
+        }
+
+        .right {
+            .hamburger {
+                width: 30px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                cursor: pointer;
+
+                span {
+                    width: 100%;
+                    height: 2px;
+                    background-color: #ababab;
+                    transform-origin: left;
+                    transition: all 2s ease;
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+
+    &.active {
+        
+        .hamburger {
+            
+            span{
+                &:first-child {
+                    background-color: #1ddecb;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    background-color: #1ddecb;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+    }
 }
