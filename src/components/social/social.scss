@@ -4,19 +4,34 @@
     color: #ababab;
     position: fixed;
     left: 0;
-    top: 50%;
+    top: 45%;
     z-index: 3;
     
         .social-container {
         display: flex;
-        align-items: flex-start;
-        justify-content: start;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        margin-left: -30px;
+        margin-left: -120px;
+        
+            .icons {
+                width: 38px;
+                height: auto;
+                padding-bottom: 12px;
+                
+            }
 
-        ion-icon {
-            font-size: 64px;
-          }
+            .linkedin {
+                width: 30px;
+                height: auto;
+            }
+
+            .icon-hover img:last-child{display:none}
+            .icon-hover:hover img:first-child{display:none}
+            .icon-hover:hover img:last-child{display:inline-block}
+           
+
+        
 
     }
 }
