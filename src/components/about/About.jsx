@@ -39,7 +39,7 @@ export default function Projects() {
           
             </div>
             <div className="about-right">
-                <img src="/assets/mecircle.png"></img>
+                <img src="/assets/mecircle.png" alt="Profile of Kate"></img>
             </div>
             
         </div>

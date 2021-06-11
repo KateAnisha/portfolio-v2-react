@@ -2,11 +2,11 @@ import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import About from "./components/about/About";
-import Contact from "./components/contact/Contact";
 import "./app.scss"
 import { useState } from "react";
 import Menu from "./components/menu/Menu";
 import Social from "./components/social/Social";
+
 
 
 function App() {
@@ -20,9 +20,6 @@ function App() {
         <Intro/>
         <Portfolio/>
         <About/>
-        <Contact/>
-
-        
       </div>
     </div>
   );

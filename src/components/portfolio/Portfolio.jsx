@@ -5,20 +5,26 @@ export default function Portfolio() {
         <div className="portfolio" id="portfolio">
             <h2>Portfolio</h2>
             <div className="portfolio-container">
-                <div className="portfolio-item">
-                    <h3>Test Name</h3>
-                    <img src="assets/portfolio.jpeg" alt="portfolio" />
-                </div>
+                <a href="https://quiet-island-78989.herokuapp.com/" target="_blank">
+                    <div className="portfolio-item">
+                        <h3>Slayerz</h3>
+                        <img src="assets/slayerz.png" alt="portfolio" />
+                    </div>
+                </a>
 
-                <div className="portfolio-item">
-                    <h3>Test Name</h3>
-                    <img src="assets/portfolio.jpeg" alt="portfolio" />
-                </div>
+                <a href="https://rogerferrier.legal" target="_blank">
+                    <div className="portfolio-item">
+                        <h3>Roger Ferrier Law</h3>
+                        <img src="assets/rfl.png" alt="portfolio" />
+                    </div>
+                </a>
 
-                <div className="portfolio-item">
-                    <h3>Test Name</h3>
-                    <img src="assets/portfolio.jpeg" alt="portfolio" />
-                </div>
+                <a href="https://radiancebeautybar.com.au/" target="_blank">
+                    <div className="portfolio-item">
+                        <h3>Radiance Beauty Bar</h3>
+                            <img src="assets/rbb.png" alt="Radiance Beauty Bar" />
+                        </div>
+                </a>
             </div>
         </div>
     )
