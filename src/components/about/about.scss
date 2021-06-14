@@ -45,3 +45,10 @@
         flex: 0.3;
     }   
 }
+
+@media screen and (max-width: 480px) {
+    .about {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+  }
